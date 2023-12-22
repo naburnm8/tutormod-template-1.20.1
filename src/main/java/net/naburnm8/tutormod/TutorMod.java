@@ -2,6 +2,8 @@ package net.naburnm8.tutormod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.naburnm8.tutormod.item.ModItemGroup;
+import net.naburnm8.tutormod.item.Moditems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +14,7 @@ public class TutorMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world! Faggot");
+		ModItemGroup.registerItemGroups();
+		Moditems.registerModItems();
 	}
 }
