@@ -13,10 +13,11 @@ import net.naburnm8.tutormod.TutorMod;
 public class Moditems {
 
     public static final Item ROUBLE = registerItem("rouble", new Item(new FabricItemSettings()));
+    public static final Item ROUBLE_5 = registerItem("rouble_5", new Item(new FabricItemSettings()));
 
-    private static void addItemsToINGREDIENTSTabItemGroup(FabricItemGroupEntries entries){
+    /*private static void addItemsToINGREDIENTSTabItemGroup(FabricItemGroupEntries entries){
         entries.add(ROUBLE);
-    }
+    }*/
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(TutorMod.MOD_ID, name), item);
     }

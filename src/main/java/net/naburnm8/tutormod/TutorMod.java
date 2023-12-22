@@ -2,6 +2,7 @@ package net.naburnm8.tutormod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.naburnm8.tutormod.block.Modblocks;
 import net.naburnm8.tutormod.item.ModItemGroup;
 import net.naburnm8.tutormod.item.Moditems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class TutorMod implements ModInitializer {
 		LOGGER.info("Hello Fabric world! Faggot");
 		ModItemGroup.registerItemGroups();
 		Moditems.registerModItems();
+		Modblocks.registerModBlocks();
 	}
 }

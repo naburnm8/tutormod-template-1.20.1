@@ -1,4 +1,7 @@
 {
   "item.tutormod.rouble": "Rouble",
-  "itemgroup.rouble": "My Mod Group"
+  "itemgroup.rouble": "My Mod Group",
+  "item.tutormod.rouble_5": "5 Roubles",
+  "block.tutormod.rouble_block": "Block of Rouble",
+  "block.tutormod.rouble_5_block": "Block of Hyper Rouble"
 }
